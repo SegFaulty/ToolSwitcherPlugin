@@ -84,7 +84,7 @@ namespace avaness.ToolSwitcherPlugin
             {
                 Definitions.Add<MyObjectBuilder_WelderDefinition>();
                 Definitions.Add<MyObjectBuilder_AngleGrinderDefinition>();
-                Definitions.Add<MyObjectBuilder_HandDrillDefinition>();
+                // Definitions.Add<MyObjectBuilder_HandDrillDefinition>();
                 group = new ToolGroup(Definitions);
                 inv = new PlayerCharacter(MySession.Static.LocalHumanPlayer, Definitions);
 
